@@ -12,8 +12,5 @@ router.post('/login', users.login);
 //退出登录
 router.get('/logout', users.logout);
 
-//写文章
-// router.get('/write', users.write);
-
 
 module.exports = router;

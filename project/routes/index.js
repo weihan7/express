@@ -3,7 +3,7 @@ var router = express.Router();
 var index = require('../modules/index');
 
 
-/* GET home page. */
+//获取文章列表
 router.get('/', index.index);
 
 //渲染注册页
