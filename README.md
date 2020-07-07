@@ -1,4 +1,5 @@
-# Express 应用程序生成器
+# Express和Koa的应用程序生成器
+## Express  
 ```
 #先安装应用程序生成器，然后再快速创建应用程序框架
 npm install express-generator -g
@@ -25,3 +26,13 @@ express -H myapp-hogan
 > 6. 学会文件上传的原理以及如何实现图片上传
 > 7. 学会分页查询的原理与实现
 > 8. 学会文章修改、删除与详情的实现
+
+
+## Koa
+```
+npm install koa-generator -g
+koa koa-demo
+cd koa-demo
+npm install
+npm start
+```
