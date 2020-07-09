@@ -13,8 +13,8 @@ var articleRouter = require('./routes/article');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));//设置视图的对应目录
+app.set('view engine', 'ejs');//设置默认的模板引擎
 
 app.use(logger('dev'));
 app.use(express.json());
